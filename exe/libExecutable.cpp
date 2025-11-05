@@ -66,4 +66,7 @@ int main() {
     oss.clear();
     oss << "The implied volatily for a Call with market price " << market_price << " is: " << impliedVolatiliy << "\n";
     logToVSOutput(oss.str());
+
+    system("pause");
+    return 0;
 }

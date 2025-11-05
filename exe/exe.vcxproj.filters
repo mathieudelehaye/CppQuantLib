@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllExecutable.cpp">
+    <ClCompile Include="libExecutable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
