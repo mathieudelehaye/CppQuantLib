@@ -50,5 +50,6 @@ Win32/
 
 # Linux build
 build/
+output/
 
 notes/

@@ -9,6 +9,8 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)   # .a / .lib
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)   # .so / .dll
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)   # executables
 
+enable_testing()
+
 # Add subdirectories
 add_subdirectory(lib)
-add_subdirectory(exe)
+add_subdirectory(test)
