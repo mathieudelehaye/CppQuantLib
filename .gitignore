@@ -42,7 +42,13 @@
 # debug information files
 *.dwo
 
+# Windows build 
 Debug/
 Release/
 x64/
 Win32/
+
+# Linux build
+build/
+
+notes/
